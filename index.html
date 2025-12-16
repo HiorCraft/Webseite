@@ -1,190 +1,113 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Craftunity Netzwerk</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Community – Craftunity Netzwerk</title>
 
-  <!-- ausgelagertes CSS -->
-  <link rel="stylesheet" href="styles.css">
+    <!-- ausgelagertes CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
+<header class="site-header">
     <div class="container nav">
-      <div class="brand">
-        <a href="index.html" aria-label="Craftunity Netzwerk">
-          <span class="brand__logo"><img src="images/logo.png" alt="Craftunity Logo"></span>
-        </a>
-        <div class="brand__name">Craftunity Netzwerk</div>
-      </div>
-
-      <nav class="menu" aria-label="Hauptnavigation">
-        <a href="index.html">Home</a>
-        <a href="news.html">News</a>
-        <a href="ranks.html">Ränge</a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Slideshow (erste Sektion) -->
-  <section id="gallery">
-    <div class="container">
-      <h2 class="section__title">Bildergalerie</h2>
-
-      <div class="slideshow" aria-roledescription="carousel">
-        <div class="slides" id="slides">
-          <div class="slide" role="group" aria-roledescription="slide" aria-label="1 von 3">
-            <img src="images/shot1.jpg" alt="Parkour-Rennen">
-            <div class="slide__caption">
-              <h3>Parkour-Rennen</h3>
-              <p>Kurz: schnelle Runden mit Ranglisten und Belohnungen.</p>
-            </div>
-          </div>
-
-          <div class="slide" role="group" aria-roledescription="slide" aria-label="2 von 3">
-            <img src="images/shot2.jpg" alt="PvP-Arena">
-            <div class="slide__caption">
-              <h3>PvP-Arena</h3>
-              <p>Kurz: 1v1 oder Teamkämpfe — zeig dein Können.</p>
-            </div>
-          </div>
-
-          <div class="slide" role="group" aria-roledescription="slide" aria-label="3 von 3">
-            <img src="images/shot3.jpg" alt="Treasure Hunt">
-            <div class="slide__caption">
-              <h3>Treasure Hunt</h3>
-              <p>Kurz: Rätsel, Schatztruhen und Überraschungen.</p>
-            </div>
-          </div>
+        <div class="brand">
+            <a href="index.html" aria-label="Craftunity Netzwerk">
+                <span class="brand__logo"><img src="images/logo.png" alt="Craftunity Logo"></span>
+            </a>
+            <div class="brand__name">Craftunity Netzwerk</div>
         </div>
 
-        <div class="slideshow__controls" aria-hidden="false">
-          <div style="display:flex;align-items:center;padding-left:0.5rem">
-            <button class="slideshow__btn" id="prev" aria-label="Vorheriges">‹</button>
-          </div>
+        <nav class="menu" aria-label="Hauptnavigation">
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <a href="ranks.html">Ränke</a>
+        </nav>
+    </div>
+</header>
 
-          <div style="display:flex;align-items:center;padding-right:0.5rem">
-            <button class="slideshow__btn" id="next" aria-label="Nächstes">›</button>
-          </div>
+<!-- Slideshow (erste Sektion) -->
+<section id="gallery">
+    <div class="container">
 
-          <div class="slideshow__dots" id="dots" role="tablist"></div>
+        <div class="slideshow" aria-roledescription="carousel">
+            <div class="slides" id="slides">
+                <div class="slide" role="group" aria-roledescription="slide" aria-label="1 von 3">
+                    <img src="images/shot1.jpg" alt="Parkour-Rennen">
+                    <div class="slide__caption">
+                        <h3>Parkour-Rennen</h3>
+                        <p>Kurz: schnelle Runden mit Ranglisten und Belohnungen.</p>
+                    </div>
+                </div>
+
+                <div class="slide" role="group" aria-roledescription="slide" aria-label="2 von 3">
+                    <img src="images/shot2.jpg" alt="PvP-Arena">
+                    <div class="slide__caption">
+                        <h3>PvP-Arena</h3>
+                        <p>Kurz: 1v1 oder Teamkämpfe — zeig dein Können.</p>
+                    </div>
+                </div>
+
+                <div class="slide" role="group" aria-roledescription="slide" aria-label="3 von 3">
+                    <img src="images/shot3.jpg" alt="Treasure Hunt">
+                    <div class="slide__caption">
+                        <h3>Treasure Hunt</h3>
+                        <p>Kurz: Rätsel, Schatztruhen und Überraschungen.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slideshow__controls" aria-hidden="false">
+                <div style="display:flex;align-items:center;padding-left:0.5rem">
+                    <button class="slideshow__btn" id="prev" aria-label="Vorheriges">‹</button>
+                </div>
+
+                <div style="display:flex;align-items:center;padding-right:0.5rem">
+                    <button class="slideshow__btn" id="next" aria-label="Nächstes">›</button>
+                </div>
+
+                <div class="slideshow__dots" id="dots" role="tablist"></div>
+            </div>
         </div>
-      </div>
     </div>
-  </section>
+</section>
 
-  <!-- News (unter der Slideshow) -->
-  <section id="news">
+<!-- News (unter der Slideshow) -->
+<section id="news">
     <div class="container">
-      <h2 class="section__title">Aktuelle News</h2>
-      <div class="grid grid-3">
-        <article class="card">
-          <div class="small muted">Event • 15.12.2025</div>
-          <h3 style="margin:.5rem 0">Winter-Lobby & Aufgaben</h3>
-          <p class="small muted">Sammle Geschenke und schalte Kosmetika frei.</p>
-        </article>
+        <h2 class="section__title">Aktuelle News</h2>
+        <div class="grid grid-3">
+            <article class="card">
+                <div class="small muted">Event • 15.12.2025</div>
+                <h3 style="margin:.5rem 0">Winter-Lobby & Aufgaben</h3>
+                <p class="small muted">Sammle Geschenke und schalte Kosmetika frei.</p>
+            </article>
 
-        <article class="card">
-          <div class="small muted">Update • 10.12.2025</div>
-          <h3 style="margin:.5rem 0">Skyblock Verbesserungen</h3>
-          <p class="small muted">Neue Quests und Performance-Optimierungen.</p>
-        </article>
+            <article class="card">
+                <div class="small muted">Update • 10.12.2025</div>
+                <h3 style="margin:.5rem 0">Skyblock Verbesserungen</h3>
+                <p class="small muted">Neue Quests und Performance-Optimierungen.</p>
+            </article>
 
-        <article class="card">
-          <div class="small muted">Devblog • 05.12.2025</div>
-          <h3 style="margin:.5rem 0">Monitoring & Status</h3>
-          <p class="small muted">Einblick in unser Status- und Cache-System.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Shop (unter News) -->
-  <section id="shop">
-    <div class="container">
-      <h2 class="section__title">Shop</h2>
-      <div class="card">
-        <p class="small muted">Finde Ränge, Cosmetics und Bundles im Shop.</p>
-        <div style="height:.75rem"></div>
-        <a class="btn" href="https://yourshop.example" target="_blank" rel="noopener">Zum Shop</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Discord (unter Shop) -->
-  <section id="discord-cta">
-    <div class="container">
-      <div class="discord-card" role="region" aria-label="Discord">
-        <div>
-          <h3>Tritt unserem Discord bei</h3>
-          <p class="small">Sei Teil der Community, erhalte Support und Event‑Ankündigungen.</p>
+            <article class="card">
+                <div class="small muted">Devblog • 05.12.2025</div>
+                <h3 style="margin:.5rem 0">Monitoring & Status</h3>
+                <p class="small muted">Einblick in unser Status- und Cache-System.</p>
+            </article>
         </div>
-        <a class="btn btn--discord" id="discord" href="https://discord.gg/cU8tt3QsUp" target="_blank" rel="noopener">Discord beitreten</a>
-      </div>
     </div>
-  </section>
+</section>
 
-  <footer class="footer">
+<!-- Shop (unter News) -->
+<section id="shop">
     <div class="container">
-      <div class="inline">
-        <span class="small">© 2025 Craftunity Netzwerk</span>
-        <span class="small">•</span>
-        <a class="small" href="#impressum">Impressum</a>
-        <span class="small">•</span>
-        <a class="small" href="#privacy">Datenschutz</a>
-      </div>
+        <h2 class="section__title">Shop</h2>
+        <div class="card">
+            <p class="small muted">Finde Ränge, Cosmetics und Bundles im Shop.</p>
+            <div style="height:.75rem"></div>
+            <a class="btn" href="https://yourshop.example" target="_blank" rel="noopener">Zum Shop</a>
+        </div>
     </div>
-  </footer>
+</section>
 
-  <script>
-    (function(){
-      const slidesEl = document.getElementById('slides');
-      const slides = Array.from(slidesEl.children);
-      const dotsEl = document.getElementById('dots');
-      const prev = document.getElementById('prev');
-      const next = document.getElementById('next');
-      let idx = 0, autoplay = true, interval = 4500, timer;
-
-      function renderDots(){
-        dotsEl.innerHTML = '';
-        slides.forEach((_, i) => {
-          const btn = document.createElement('button');
-          btn.className = 'dot-btn' + (i===idx? ' active':'');
-          btn.setAttribute('aria-label', 'Slide ' + (i+1));
-          btn.addEventListener('click', ()=> { go(i); });
-          dotsEl.appendChild(btn);
-        });
-      }
-
-      function update(){
-        slidesEl.style.transform = 'translateX(' + (-idx*100) + '%)';
-        Array.from(dotsEl.children).forEach((d,i)=> d.classList.toggle('active', i===idx));
-      }
-
-      function go(i){
-        idx = (i + slides.length) % slides.length;
-        update();
-        restartAutoplay();
-      }
-
-      prev.addEventListener('click', ()=> go(idx-1));
-      next.addEventListener('click', ()=> go(idx+1));
-
-      function startAutoplay(){
-        if(!autoplay) return;
-        timer = setInterval(()=> go(idx+1), interval);
-      }
-      function restartAutoplay(){ clearInterval(timer); startAutoplay(); }
-
-      renderDots();
-      update();
-      startAutoplay();
-
-      const slideshow = document.querySelector('.slideshow');
-      slideshow.addEventListener('mouseenter', ()=> { clearInterval(timer); });
-      slideshow.addEventListener('mouseleave', ()=> { restartAutoplay(); });
-    })();
-  </script>
-</body>
-</html>
 
