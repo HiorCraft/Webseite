@@ -1,6 +1,6 @@
 :root{
-    --bg:#0f1318; --bg-alt:#121821; --text:#e6edf3; --muted:#9aa7b2;
-    --accent:#38bdf8; --accent-2:#34d399; --card:#1a2330; --border:#243145;
+  --bg:#0f1318; --bg-alt:#121821; --text:#e6edf3; --muted:#9aa7b2;
+  --accent:#38bdf8; --accent-2:#34d399; --card:#1a2330; --border:#243145;
 }
 
 *{box-sizing:border-box}
@@ -44,15 +44,15 @@ section{padding:2rem 0}
 .slide{min-width:100%;display:block;position:relative}
 .slide img{width:100%;height:420px;object-fit:cover;display:block}
 .slide__caption{
-    position:absolute;
-    left:1rem;
-    top:50%;
-    transform:translateY(-50%);
-    max-width:45%;
-    padding:0.75rem 1rem;
-    background:linear-gradient(90deg, rgba(0,0,0,0.65), rgba(0,0,0,0.25));
-    border-radius:8px;
-    color:var(--text);
+  position:absolute;
+  left:1rem;
+  top:50%;
+  transform:translateY(-50%);
+  max-width:45%;
+  padding:0.75rem 1rem;
+  background:linear-gradient(90deg, rgba(0,0,0,0.65), rgba(0,0,0,0.25));
+  border-radius:8px;
+  color:var(--text);
 }
 .slide__caption h3{margin:0 0 .25rem;font-size:1.05rem;font-weight:700}
 .slide__caption p{margin:0;color:var(--muted);font-size:0.95rem}
@@ -73,164 +73,164 @@ section{padding:2rem 0}
 .discord-card p{margin:0;color:rgba(6,20,39,0.72)}
 @media(max-width:700px){.discord-card{flex-direction:column;align-items:flex-start}.btn--discord{width:100%;text-align:center;margin-top:.75rem}
 
-    .brand__logo img {
-        background: transparent; /* Hintergrund durchsichtig */
-    }
+.brand__logo img {
+  background: transparent; /* Hintergrund durchsichtig */
+}
 
-    .footer {
-        width: 100%;          /* volle Breite */
-        background: #0a0f14;  /* Beispiel: dunkler Hintergrund */
-        color: #fff;
-        padding: 1rem 0;
-    }
-    .footer .container {
-        max-width: 1200px;    /* Inhalt bleibt zentriert */
-        margin: 0 auto;
-    }
+.footer {
+  width: 100%;          /* volle Breite */
+  background: #0a0f14;  /* Beispiel: dunkler Hintergrund */
+  color: #fff;
+  padding: 1rem 0;
+}
+.footer .container {
+  max-width: 1200px;    /* Inhalt bleibt zentriert */
+  margin: 0 auto;
+}
 
-    .rank-table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 2rem;
-        background: var(--card);
-        border: 1px solid var(--border);
-        border-radius: 12px;
-        overflow: hidden;
-    }
+.rank-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
 
-    .rank-table th, .rank-table td {
-        padding: 1rem;
-        text-align: center;
-        border-bottom: 1px solid var(--border);
-    }
+.rank-table th, .rank-table td {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
 
-    .rank-table th {
-        background: var(--bg-alt);
-        color: var(--accent);
-        font-weight: 700;
-    }
+.rank-table th {
+  background: var(--bg-alt);
+  color: var(--accent);
+  font-weight: 700;
+}
 
-    .rank-table tr:hover {
-        background: rgba(56,189,248,0.08);
-    }
+.rank-table tr:hover {
+  background: rgba(56,189,248,0.08);
+}
 
-    .promo-box {
-        text-align: center;
-        margin: 2rem auto;
-        padding: 1.5rem 2rem;
-        max-width: 800px;
-        background: var(--card);
-        border: 2px solid var(--accent);
-        border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    }
+.promo-box {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  max-width: 800px;
+  background: var(--card);
+  border: 2px solid var(--accent);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
 
-    .promo-box h2 {
-        margin: 0 0 0.5rem;
-        font-size: 1.6rem;
-        color: var(--accent);
-    }
+.promo-box h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.6rem;
+  color: var(--accent);
+}
 
-    .promo-box p {
-        margin: 0;
-        font-size: 1rem;
-        color: var(--text);
-        line-height: 1.5;
-    }
+.promo-box p {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--text);
+  line-height: 1.5;
+}
 
-    .heading-box {
-        text-align: center;
-        margin: 2rem auto;
-        padding: 1rem 2rem;
-        max-width: 800px;
-        background: var(--card);
-        border: 2px solid var(--accent);
-        border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    }
+.heading-box {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  max-width: 800px;
+  background: var(--card);
+  border: 2px solid var(--accent);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
 
-    .heading-box h1 {
-        margin: 0;
-        font-size: 2rem;
-        font-weight: 700;
-        background: linear-gradient(90deg, var(--accent), var(--accent-2));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
+.heading-box h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-    .shop-grid {
-        display: flex;
-        justify-content: center;   /* Karten mittig */
-        gap: 2rem;                 /* Abstand zwischen Karten */
-        flex-wrap: wrap;           /* bricht um auf kleinen Screens */
-        margin: 2rem auto;
-        max-width: 1200px;
-    }
+.shop-grid {
+  display: flex;
+  justify-content: center;   /* Karten mittig */
+  gap: 2rem;                 /* Abstand zwischen Karten */
+  flex-wrap: wrap;           /* bricht um auf kleinen Screens */
+  margin: 2rem auto;
+  max-width: 1200px;
+}
 
-    .rank-card {
-        display: flex;
-        flex-direction: column;
-        background: #fff;
-        border-radius: 12px;
-        overflow: hidden;
-        width: 320px;
-        height: 480px; /* halb geteilt */
-        box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-    }
+.rank-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 320px;
+  height: 480px; /* halb geteilt */
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
 
-    .rank-card__top {
-        flex: 1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: #e8fbe8; /* Hintergrund oben */
-    }
+.rank-card__top {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e8fbe8; /* Hintergrund oben */
+}
 
-    .rank-card__image {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+.rank-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-    .rank-card__bottom {
-        flex: 1;
-        padding: 1rem;
-        text-align: center;
-        background: #4992ffe3; /* Hintergrundfarbe für Textbereich */
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+.rank-card__bottom {
+  flex: 1;
+  padding: 1rem;
+  text-align: center;
+  background: #4992ffe3; /* Hintergrundfarbe für Textbereich */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-    .rank-card__title {
-        font-size: 1.2rem;
-        font-weight: 700;
-        margin-bottom: 0.5rem;
-    }
+.rank-card__title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
 
-    .rank-card__features {
-        list-style: none;
-        padding: 0;
-        margin: 0 0 0.75rem;
-        font-size: 0.9rem;
-    }
+.rank-card__features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+}
 
-    .rank-card__price {
-        font-size: 1.1rem;
-        font-weight: 600;
-        margin-bottom: 0.75rem;
-    }
+.rank-card__price {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
 
-    .button-box .btn {
-        background: #28a745;       /* kräftiges Grün */
-        color: #fff;
-        padding: 0.5rem 1rem;
-        border-radius: 6px;
-        text-decoration: none;
-        font-weight: 600;
-        transition: background 0.3s ease;
-    }
+.button-box .btn {
+  background: #28a745;       /* kräftiges Grün */
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
 
-    .button-box .btn:hover {
-        background: #218838;       /* dunkleres Grün beim Hover */
-    }
+.button-box .btn:hover {
+  background: #218838;       /* dunkleres Grün beim Hover */
+}
